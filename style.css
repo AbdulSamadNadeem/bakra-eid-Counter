@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./assests/images/download\ \(2\).jpeg); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    overflow: hidden; 
+    background-repeat: no-repeat;
+}
+
+#timer{
+    text-align: center;
+    font-size: 100px;
+    margin-top: -10px;
+    color: #fff;
+}
+#start{
+    margin-left: 560px;
+    width: 120px;
+    height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.3s;
+    background-color: black;
+}
+#start:hover{
+    transform:scale(1.1);
+    transition: 0.3s;
+}
+#Pause{
+    margin-left: 560px;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    transition: 0.3s;
+    color: #fff;
+    font-size: 20px;
+    background-color: black;
+}
+
+#Pause:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+
+}
+
+h2{
+    text-align: center;
+    word-spacing: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.display{
+    margin-top: 50px;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: underline;
+    text-shadow: #fff;
+}
